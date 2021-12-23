@@ -1,0 +1,221 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --second-accent-color: #188ce8;
+  --primary-white-color: #ffffff;
+  --second-logo-color: #000000;
+  --hero-bcg: #2f303a;
+  --main-section-bcg: #f5f4fa;
+  --footer-bcg: #2f303a;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+body {
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* ------------------Header---------------------------- */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--second-logo-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* ------------------------hero----------------------------- */
+.hero {
+  background-color: var(--hero-bcg);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--second-accent-color);
+}
+/* ---------------------section------------------------------ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.features-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  color: var(--text-color);
+  line-height: 1.71;
+}
+
+.our-work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-after-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--main-section-bcg);
+}
+
+.team-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* ---------------------footer----------------------------- */
+
+.address {
+  background-color: var(--footer-bcg);
+}
+.address-informations {
+  line-height: 1.71;
+  font-style: normal;
+}
+.address-addres,
+.address-contacts {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.address-contacts:hover,
+.address-contacts:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -------------------Portfolio-------------------------- */
+
+.filter-btn-main {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.filter-btn-second {
+  background-color: var(--main-section-bcg);
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.filter-btn-second:hover,
+.filter-btn-second:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* --Карточки-- */
+.list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.list .after-title {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.card {
+  text-decoration: none;
+}
