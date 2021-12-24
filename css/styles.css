@@ -52,6 +52,10 @@ body {
 
 /* ------------------Header---------------------------- */
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .page-header-nav {
   display: flex;
   align-items: center;
@@ -158,6 +162,8 @@ body {
 }
 /* ---------------------section------------------------------ */
 
+/* ----------Наши преимущества------------------ */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -191,9 +197,22 @@ body {
   line-height: 1.71;
 }
 
+/* -------------Чем мы занимаемся--------------- */
+
 .our-work.section {
   padding-top: 0;
 }
+
+.our-work-container {
+  display: flex;
+  margin-left: -30px;
+}
+
+.our-work-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
 .our-work-title {
   font-weight: 700;
   font-size: 36px;
@@ -218,8 +237,23 @@ body {
   margin-bottom: 10px;
 }
 
+/* ----------Наша команда--------------------- */
+
 .team {
   background-color: var(--main-section-bcg);
+}
+
+.team-container {
+  display: flex;
+  margin-left: -30px;
+}
+
+.team-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-text {
@@ -263,8 +297,10 @@ body {
 
 /* -------------------Portfolio-------------------------- */
 
-.filter-btn {
+.button-container {
   margin-bottom: 34px;
+  display: flex;
+  justify-content: center;
 }
 
 .filter-btn-main {
@@ -275,7 +311,13 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  border-radius: 4px;
 }
+
+.button-filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter-btn-second {
   background-color: var(--main-section-bcg);
   color: var(--primary-text-color);
@@ -284,6 +326,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  border-radius: 4px;
 }
 .filter-btn-second:hover,
 .filter-btn-second:focus {
@@ -291,10 +334,12 @@ body {
   color: var(--primary-white-color);
 }
 
-/* --Карточки-- */
+/* ---------Карточки----- */
 
 .card-text {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .card-text .title {
