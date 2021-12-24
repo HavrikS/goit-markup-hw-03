@@ -95,6 +95,8 @@ body {
 /* ------------------------hero----------------------------- */
 .hero {
   background-color: var(--hero-bcg);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -117,7 +119,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -147,6 +148,9 @@ body {
   line-height: 1.71;
 }
 
+.our-work.section {
+  padding-top: 0;
+}
 .our-work-title {
   font-weight: 700;
   font-size: 36px;
@@ -191,10 +195,13 @@ body {
 
 .address {
   background-color: var(--footer-bcg);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-informations {
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px;
 }
 .address-addres,
 .address-contacts {
@@ -206,14 +213,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address .web,
-.address .studio {
-  margin-bottom: 20px;
-}
-
-.address-addres,
 .address-contacts {
-  margin-bottom: 9px;
+  display: block;
+  margin-top: 9px;
 }
 
 /* -------------------Portfolio-------------------------- */
@@ -226,7 +228,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  cursor: pointer;
 }
 .filter-btn-second {
   background-color: var(--main-section-bcg);
@@ -236,7 +237,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  cursor: pointer;
 }
 .filter-btn-second:hover,
 .filter-btn-second:focus {
