@@ -220,6 +220,10 @@ body {
 
 /* -------------------Portfolio-------------------------- */
 
+.filter-btn {
+  margin-bottom: 34px;
+}
+
 .filter-btn-main {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -245,6 +249,15 @@ body {
 }
 
 /* --Карточки-- */
+
+.card-text {
+  padding: 20px 24px;
+}
+
+.card-text .title {
+  margin-bottom: 4px;
+}
+
 .list .title {
   color: var(--primary-text-color);
   font-weight: 700;
