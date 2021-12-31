@@ -315,6 +315,7 @@ body {
   text-align: center;
   border-radius: 4px;
   border: none;
+  padding: 6px 20px;
 }
 
 .button-filter-item:not(:last-child) {
@@ -331,6 +332,7 @@ body {
   text-align: center;
   border-radius: 4px;
   border: none;
+  padding: 6px 20px;
 }
 .filter-btn-second:hover,
 .filter-btn-second:focus {
